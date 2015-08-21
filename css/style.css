@@ -1,7 +1,4 @@
-body {
-	background-color: red;
-}
-
-h1, p {
-	color:black;
-}
+h1{
+	color: #000000;
+	background-color: #800000;
+}	
