@@ -1,4 +1,19 @@
 body {
-	color: #FAF0E6;
-	background-color: #800000;
+	color: #696969;
+	background-color: #F0F8FF;
+	font-size:24px;
+	font-family:Helvetica;
+	text-align:center;
+	font-weight:bold;
 }	
+
+h1{
+	text-tansform:uppercase;
+	text-decoration:underline;
+	font-weight:bold;
+
+}
+
+#slogan {
+	font-style:italic;
+}
