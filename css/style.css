@@ -4,15 +4,13 @@ body {
 	font-family:Avenir, Arial, Helvetica, sans-serif;
 	text-align:center;
 	font-weight:bold;
-	background-image:url("images/sunset.jpg");
-	background-size: cover;
-	background-repeat:no-repeat;
+	background-image:url("sunset.jpg");
+	background-size:cover;
 	background-attachment:scroll;
 }	
 
 h1{
 	text-transform:uppercase;
-	text-decoration:underline;
 	font-weight:bold;
 	font-size:500%;
 }
