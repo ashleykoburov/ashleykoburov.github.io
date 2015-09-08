@@ -1,14 +1,14 @@
 body {
-	color: #F0FFFF;
+	color:#F0FFFF;
 	font-size:large;
-	font-family: Avenir, Arial, Helvetica, sans-serif;
+	font-family:Avenir, Arial, Helvetica, sans-serif;
 	text-align:center;
 	font-weight:bold;
-	background-color: white;
-	background-image: url(sunset.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-color:white;
+	background-image:url(sunset.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
 	margin: 0;
 	padding: 0;
 	height: 100%;
