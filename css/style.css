@@ -1,17 +1,16 @@
 body {
-	color: #000000;
+	color: #696969;
 	font-size: large;
 	font-family: Avenir, Arial, Helvetica, sans-serif;
 	text-align: center;
 	font-weight: bold;
-	background-image: url("http://imaginaryasylum.com/assets/photos/istanbul.jpg");
+	background-image: url("sunset.jpg");
 	background-size: cover;
 	background-attachment: fixed;
-}	
+}
 
-p{ 
-	background-color: #F8F8FF;
-
+#slogan {
+	font-style: italic;
 }
 
 h1{
@@ -19,13 +18,11 @@ h1{
 	font-weight: bold;
 	font-size: 500%;
 }
-
+	
 body{
 	margin: 0;
 	padding: 0;
 	height: 100%;
-}
 
-#slogan {
-	font-style: italic;
-}
+
+
