@@ -1,25 +1,16 @@
 body {
 	color: #696969;
-	font-size: large;
+	font-size: 20px;
 	font-family: Avenir, Arial, Helvetica, sans-serif;
 	text-align: center;
-	font-weight: bold;
-	background-image: url("sunset.jpg");
+	background-image: url("../images/sunset.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 }
-
 ul{
-	color:#708090;
+	color: #708090;
+	list-style-type: none;
 }
-#navshots ul {
-	text-align:center;
-}
-
-#slogan {
-	font-style: italic;
-}
-
 h1{
 	text-transform: uppercase;
 	font-weight: bold;
@@ -28,11 +19,12 @@ h1{
 h2{
 	font-weight: bold;
 	font-size:200%;
-}	
-body{
-	margin: 0;
-	padding: 0;
-	height: 100%;
-
-
+}
+a {
+	 color: #696969;
+	 text-decoration: none;
+}
+#slogan {
+	font-style: italic;
+}
 
