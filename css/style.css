@@ -1,18 +1,18 @@
 body {
-	color:#696969;
-	font-size:large;
-	font-family:Avenir, Arial, Helvetica, sans-serif;
-	text-align:center;
-	font-weight:bold;
-	background-image:url("sunset.jpg");
-	background-size:cover;
-	background-attachment:scroll;
+	color: #696969;
+	font-size: large;
+	font-family: Avenir, Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-weight: bold;
+	background-image: url("sunset.jpg");
+	background-size: cover;
+	background-attachment: scroll;
 }	
 
 h1{
-	text-transform:uppercase;
-	font-weight:bold;
-	font-size:500%;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 500%;
 }
 
 body{
@@ -22,5 +22,5 @@ body{
 }
 
 #slogan {
-	font-style:italic;
+	font-style: italic;
 }
