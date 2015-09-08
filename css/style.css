@@ -1,5 +1,5 @@
 body {
-	color: #F8F8FF;
+	color: #000000;
 	font-size: large;
 	font-family: Avenir, Arial, Helvetica, sans-serif;
 	text-align: center;
@@ -8,6 +8,11 @@ body {
 	background-size: cover;
 	background-attachment: fixed;
 }	
+
+p{ 
+	background-color: #F8F8FF;
+
+}
 
 h1{
 	text-transform: uppercase;
