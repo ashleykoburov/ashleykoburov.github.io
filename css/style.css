@@ -9,6 +9,9 @@ body {
 	background-attachment: fixed;
 }
 
+ul{
+	color:#708090;
+}
 #navshots ul {
 	text-align:center;
 }
