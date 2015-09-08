@@ -1,14 +1,15 @@
 body {
 	color: #696969;
-	background-color: #F0F8FF;
-	font-size:24px;
+	background-image: "images/sunset.jpg";
+	background-size: cover;
+	font-size:large;
 	font-family:Helvetica;
 	text-align:center;
 	font-weight:bold;
 }	
 
 h1{
-	text-tansform:uppercase;
+	text-transform:uppercase;
 	text-decoration:underline;
 	font-weight:bold;
 
