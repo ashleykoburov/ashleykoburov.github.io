@@ -1,12 +1,12 @@
 body {
-	color: #696969;
+	color: #F8F8FF;
 	font-size: large;
 	font-family: Avenir, Arial, Helvetica, sans-serif;
 	text-align: center;
 	font-weight: bold;
 	background-image: url("http://imaginaryasylum.com/assets/photos/istanbul.jpg");
 	background-size: cover;
-	background-attachment: scroll;
+	background-attachment: fixed;
 }	
 
 h1{
