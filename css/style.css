@@ -31,6 +31,11 @@ a {
 	 color: #484848;
 	 text-decoration: none;
 }
+div {
+    width: 33.3%;
+    padding: 1em;
+    float: left;
+}
 #slogan {
 	font-style: italic;
 }
@@ -39,4 +44,10 @@ a {
 	background-size: cover;
 	background-attachment: fixed;
 }
+.clearfix:after {
+     content: " ";
+     visibility: hidden;
+     display: block;
+     
+     }
 
