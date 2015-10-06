@@ -1,6 +1,6 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-	color: #707070;
+	color: #ffffff;
 	font-size: 20px;
 	font-family: 'Roboto Slab', serif;
 	text-align: center;
@@ -8,7 +8,7 @@ body {
 	margin: 10px;
 }
 ul{
-	color: #708090;
+	color: #ffffff;
 	list-style-type: none;
 	padding: 20px;
 	padding-bottom: 100px;
@@ -22,13 +22,21 @@ h1{
 	margin: 10px;
 }
 h2{
+	color: #707070;
+	font-weight: bold;
+	font-size:200%;
+	padding: 10px;
+	margin: 10px;
+}
+h3{
+	color: #ffffff;
 	font-weight: bold;
 	font-size:200%;
 	padding: 10px;
 	margin: 10px;
 }
 a {
-	 color: #484848;
+	 color: #ffffff;
 	 text-decoration: none;
 }
 img {
@@ -36,13 +44,30 @@ img {
     padding: 1em;
     float: left;
 }
+@media only screen and (max-width: 991px) and (min-width: 660px){
+	img{ 
+		width: 100%;
+	}
+	#homepage {
+		background-image: url("../images/sunset1000.jpg");
+	}
+}
 #slogan {
 	font-style: italic;
 }
 #homepage {
-	background-image: url("../images/sunset.jpg");
+	background-image: url("../images/sunset2000.jpg");
 	background-size: cover;
 	background-attachment: fixed;
+}
+.cta {
+	font-size: 2em;
+	background-color: rgba (30,96,93,.2);
+	padding: .3em .5em;
+	border: .2em solid;
+}
+.cta:hover {
+	background-color: rgba(30,96,93,.8);
 }
 .clearfix:after { 
 	content: "."; 
