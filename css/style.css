@@ -57,6 +57,7 @@ img {
 	background-color: rgba (30,96,93,.2);
 	padding: .3em .5em;
 	border: .2em solid;
+	float:none;
 }
 .cta:hover {
 	background-color: rgba(30,96,93,.8);
