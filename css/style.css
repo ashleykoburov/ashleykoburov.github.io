@@ -44,14 +44,6 @@ img {
     padding: 1em;
     float: left;
 }
-@media only screen and (max-width: 991px) and (min-width: 660px){
-	img{ 
-		width: 100%;
-	}
-	#homepage {
-		background-image: url("../images/sunset1000.jpg");
-	}
-}
 #slogan {
 	font-style: italic;
 }
@@ -76,4 +68,11 @@ img {
 	height: 0; 
 	clear: both;
 }
-
+@media only screen and (max-width: 991px){
+	img{ 
+		width: 100%;
+	}
+	#homepage {
+		background-image: url("../images/sunset1000.jpg");
+	}
+}
