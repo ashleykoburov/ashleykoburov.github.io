@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+<!-- Add jQuery library -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	<!-- Add fancyBox -->
+	<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -9,22 +18,45 @@
 <body>
 	<section id="streets" class="clearfix">
 		<h2>city streets</h2>
-		<img src="https://s-media-cache-ak0.pinimg.com/736x/78/83/ba/7883bad66ab22ab192a6e9e4e9087ae0.jpg" alt="homes">
-		<img src="https://s-media-cache-ak0.pinimg.com/736x/5e/aa/06/5eaa062b119638c09e639ea1bb400f0a.jpg" alt="alley">
-		<img src="http://ourwanderland.com/wp-content/uploads/2015/03/Istanbul-Karakoy-Istanbul-istiklal-street-back-streets.jpg" alt="karakoy">
+		<a class="fancybox" rel="group" href="https://s-media-cache-ak0.pinimg.com/736x/78/83/ba/7883bad66ab22ab192a6e9e4e9087ae0.jpg">
+			<img src="https://s-media-cache-ak0.pinimg.com/736x/78/83/ba/7883bad66ab22ab192a6e9e4e9087ae0.jpg" alt="homes">
+		</a>
+		<a class="fancybox" rel="group" href="https://s-media-cache-ak0.pinimg.com/736x/5e/aa/06/5eaa062b119638c09e639ea1bb400f0a.jpg">
+			<img src="https://s-media-cache-ak0.pinimg.com/736x/5e/aa/06/5eaa062b119638c09e639ea1bb400f0a.jpg" alt="alley">
+		</a>
+		<a class="fancybox" rel="group" href="http://ourwanderland.com/wp-content/uploads/2015/03/Istanbul-Karakoy-Istanbul-istiklal-street-back-streets.jpg">
+			<img src="http://ourwanderland.com/wp-content/uploads/2015/03/Istanbul-Karakoy-Istanbul-istiklal-street-back-streets.jpg" alt="karakoy">
+			</a>
 	</section>
 	<section id="mosques"class="clearfix">
 		<h2>mosques</h2>
-		<img src="https://disanddes.files.wordpress.com/2012/03/img_3861.jpg?w=800&h=533" alt="mosque rooftop">
-		<img src="http://d1x3cbuht6sy0f.cloudfront.net/sales/20138/d67635e7_3745_4604_8e45_8b79edbbb36d.jpg" alt="tone">
-		<img src="http://static.panoramio.com/photos/large/56543631.jpg" alt="night">
+		<a class="fancybox" rel="group" href="https://disanddes.files.wordpress.com/2012/03/img_3861.jpg?w=800&h=533">
+			<img src="https://disanddes.files.wordpress.com/2012/03/img_3861.jpg?w=800&h=533" alt="mosque rooftop">
+		</a>
+		<a class="fancybox" rel="group" href="http://d1x3cbuht6sy0f.cloudfront.net/sales/20138/d67635e7_3745_4604_8e45_8b79edbbb36d.jpg">
+			<img src="http://d1x3cbuht6sy0f.cloudfront.net/sales/20138/d67635e7_3745_4604_8e45_8b79edbbb36d.jpg" alt="tone">
+		</a>
+		<a class="fancybox" rel="group" href="http://static.panoramio.com/photos/large/56543631.jpg">
+			<img src="http://static.panoramio.com/photos/large/56543631.jpg" alt="night">
+		</a>
 	</section>
 	<section id="water"class="clearfix">
 		<h2>water</h2>
-		<img src="http://www.telegraph.co.uk/travel/hotel/article117815.ece/ALTERNATES/w620/shangrilaistanbulexterior.jpg" alt="lanterns">
-		<img src="http://www.turkijeindezon.nl/wp-content/uploads/2015/01/turk1.jpg" alt="red rooftops">
-		<img src="https://www.likealocalguide.com/media/cache/c8/64/c864bea42c75feafca12642c5dac00f5.jpg" alt="ortakoy">
+		<a class="fancybox" rel="group" href="http://www.telegraph.co.uk/travel/hotel/article117815.ece/ALTERNATES/w620/shangrilaistanbulexterior.jpg">
+			<img src="http://www.telegraph.co.uk/travel/hotel/article117815.ece/ALTERNATES/w620/shangrilaistanbulexterior.jpg" alt="lanterns">
+		</a>
+		<a class="fancybox" rel="group" href="http://www.turkijeindezon.nl/wp-content/uploads/2015/01/turk1.jpg">
+			<img src="http://www.turkijeindezon.nl/wp-content/uploads/2015/01/turk1.jpg" alt="red rooftops">
+		</a>
+		<a class="fancybox" rel="group" href="https://www.likealocalguide.com/media/cache/c8/64/c864bea42c75feafca12642c5dac00f5.jpg">
+			<img src="https://www.likealocalguide.com/media/cache/c8/64/c864bea42c75feafca12642c5dac00f5.jpg" alt="ortakoy">
+		</a>
 	</section>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
 </body>
 </html>
 
