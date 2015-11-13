@@ -11,6 +11,9 @@ nav {
 	left: 1em;
 	top: 1em;
 }
+nav a {
+	display: block;
+}
 nav img {
 	width: 100px;
 	display: block;
