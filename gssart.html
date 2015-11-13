@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Add jQuery library -->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	<!-- Add fancyBox -->
+	<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+	<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="gstyle.css">
+	<title>Portfolio</title>
+</head>
+<body>
+	<h1>Gallery Studio Stage</h1>
+	<h3><p id="slogan">Portfolio</p></h3>
+	<section id="art"class="clearfix">
+		<h2>art</h2>
+		<a class="fancybox" rel="group" href="gssimages/art1.jpg">
+			<img src="gssimages/art1.jpg" alt="wild">
+		</a>
+		<a class="fancybox" rel="group" href="gssimages/art2.jpg">
+			<img src="gssimages/art2.jpg" alt="spring">
+		</a>
+		<a class="fancybox" rel="group" href="gssimages/art3.jpg">
+			<img src="gssimages/art3.jpg" alt="flow">
+		</a>
+	</section>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+</body>
+</html>
+

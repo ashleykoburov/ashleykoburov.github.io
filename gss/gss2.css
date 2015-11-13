@@ -60,12 +60,13 @@ video {
 	font-style: italic;
 }
 .cta {
-	font-size: 2em;
-	background-color: rgba (30,96,93,.2);
 	padding: .3em .5em;
-	border: .2em solid;
-	display:inline-block;
+	display: block;
 	margin-bottom:2em;
+
+}
+.cta:hover {
+	background-color: #D3D3D3;
 }
 .clearfix:after { 
 	content: "."; 
