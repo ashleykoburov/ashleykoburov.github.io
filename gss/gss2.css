@@ -79,6 +79,11 @@ video {
 	img{ 
 		width: 100%;
 	}
+	nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
 }
 @media only screen and (max-width: 499px){
 	body{
@@ -86,5 +91,10 @@ video {
 	}
 	img{ 
 		width: 100%;
+	}
+	nav {
+		position: fixed;
+		top: 0;
+		left: 0;
 	}
 }
